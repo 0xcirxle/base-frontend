@@ -1,15 +1,17 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import awardIcon from '../assets/award.png';
-import categoryIcon from '../assets/category.png';
+import dashboard from '../assets/dashboard.png';
+import categoryIcon from '../assets/nft.png';
+import transaction from '../assets/transactions.png';
 import logo from '../assets/logo.png';
 
 const Sidebar = () => {
   const sidebarOptions = [
-    { name: 'Dashboard', iconSrc: awardIcon, path: '/' },
+    { name: 'Dashboard', iconSrc: dashboard, path: '/' },
     { name: 'Tokens', iconSrc: awardIcon, path: '/tokens' },
     { name: 'NFTs', iconSrc: categoryIcon, path: '/Nfts' },
-    { name: 'Transactions', iconSrc: categoryIcon, path: '/transactions' },
+    { name: 'Transactions', iconSrc: transaction, path: '/transactions' },
   ];
 
   return (
