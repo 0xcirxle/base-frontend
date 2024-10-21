@@ -7,8 +7,8 @@ import logo from '../assets/logo.png';
 const Sidebar = () => {
   const sidebarOptions = [
     { name: 'Dashboard', iconSrc: awardIcon, path: '/' },
-    { name: 'NFT', iconSrc: categoryIcon, path: '/nft' },
     { name: 'Tokens', iconSrc: awardIcon, path: '/tokens' },
+    { name: 'NFTs', iconSrc: categoryIcon, path: '/Nfts' },
     { name: 'Transactions', iconSrc: categoryIcon, path: '/transactions' },
   ];
 
@@ -16,8 +16,8 @@ const Sidebar = () => {
     <div className="fixed top-0 left-0 h-[93vh] w-[22vw] m-[45px] bg-[rgba(31,31,31,0.60)] rounded-[25px] text-white flex flex-col justify-between p-6">
       <div>
         <div className="m-[32px] mt-[35px] flex justify-center items-center">
-          <img src={logo} alt="Athena Logo" className="h-6 mr-2" />
-          <h1 className="text-[#DA0046] font-syncopate text-[19.909px] font-bold leading-3 tracking-title">ATHENA</h1>
+          <img src={logo} alt="Athena Logo" className="h-10 mr-2" />
+          <h1 className="text-[#DA0046] font-syncopate text-[35.909px] font-bold mt-3 leading-3 tracking-title">NEOM</h1>
         </div>
         <hr className="border-t-[0.5px] mt-12 mb-[28px] border-white w-full" />
         <nav>

@@ -10,9 +10,9 @@ const FloatingOverlay = () => {
           alt="Dashboard Overlay" 
           className="opacity-100"
         />
-        <div className="absolute top-1/2 left-[70px] font-inter  transform -translate-x-1/2 -translate-y-1/2" >
+        <div className="absolute top-1/2 left-[110px] font-inter  transform -translate-x-1/2 -translate-y-1/2" >
           <h1 className="text-2xl font-medium tracking-wider" style={{ color: 'rgba(255, 255, 255, 0.80)' }}>
-            NFTs
+            Transactions
           </h1>
         </div>
       </div>
